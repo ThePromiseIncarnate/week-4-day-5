@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Problem Solving-Day 5</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <h1>John's Ice Cream Shop</h1>
+
+  <h2>Problem</h2>
+  <p>
+    John has an ice cream shop. He sells two kinds of ice cream: Chunky Chocolate and Creamy Pistachio. There is a line of customers waiting for the cashier to take their orders. Each customer will order one scoop of ice cream. The customers get in line at the back. When they get to the front, they get their ice cream and leave the line. Here is a picture of the line in front of his shop.John has an ice cream shop: 
+  </p>
+
+  <img src="./queue-for-ice-cream.png" alt="John's Ice Cream Shop">
+
+  <p>
+    How many boys want pistachio and how many girls want chocolate?
+  </p>
+
+  <h2>Solution</h2>
+  <p>Boys, as we all know, don't have hair! So all we have to do is count the number of people without hair who are thinking about pistachio and count the people who do have hair(the two genders: hair and no hair, clearly) that are thinking about chocolate!</p>
+  <p>Result: Two boys want pistachio and one girl wants chocolate.</p>
+
+  <h2>
+    Picture/Diagram
+  </h2>
+  <p> This is the diagram from Canva I made with Savanah and Dylan.</p>
+  <div class="diagram-container">
+    <img width="90%" alt="diagram of sock problem"
+      src="day4-3.png">
+  </div>
+  <h2>Pseudocode</h2>
+  <pre>
+    FOR EACH PERSON in line
+    IF: the person is bald and wants pistachio
+    THEN: tally green (A)
+    ELSE: don’t do anything
+   
+    FOR EACH PERSON in line
+    IF: the person has hair and wants chocolate
+    THEN: tally purple (B)
+    ELSE: don’t do anything     
+
+    Result: 2 green tallies, 1 purple tally
+
+
+    </pre>
+
+  <h2>
+    Discussion
+  </h2>
+
+  <h2>Examples</h2>
+  <table style="border: solid">
+    <tr>
+      <th style="border-bottom: solid">Gender</th>
+      <th style="border-bottom: solid">
+        Chocolate
+      </th>
+      <th style="border-bottom: solid">
+        Pistachio
+      </th>
+    </tr>
+    <tr>
+      <td>Boy</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Girl</td>
+      <td>
+        1
+      </td>
+      <td>
+        2
+      </td>
+    </tr>
+  </table>
+  <script src="script.js"></script>
+</body>
+
+</html>
